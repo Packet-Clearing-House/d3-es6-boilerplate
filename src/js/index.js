@@ -9,7 +9,6 @@ export default class Visualization {
     this.objects = [];
     this.svg
     .on('mousedown', function() {
-      console.log(_this);
       const mouseCoordinates = d3.mouse(this);
       _this.objects.push(new Circle(_this.svg, mouseCoordinates, config.defaultRadius * Math.random()));
     });
@@ -21,6 +20,4 @@ export default class Visualization {
       .attr('width', window.innerWidth)
       .attr('height', window.innerHeight);
   }
-
-  canvas
 }
