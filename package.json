@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Visualize Worldwide Internet Outages",
   "scripts": {
-    "build": "gulp"
+    "start": "gulp",
+    "build": "gulp dist"
   },
   "private": true,
   "author": "Mohammed Elalj <mohammed@pch.net>",
