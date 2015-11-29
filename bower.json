@@ -1,0 +1,8 @@
+{
+  "name": "visualization",
+  "dependencies": {
+    "d3": "~3.5.8",
+    "topojson": "~1.6.19"
+  },
+  "private": true
+}

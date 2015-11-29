@@ -1,0 +1,3 @@
+.eslintrc
+public/**/*.js
+node_modules
