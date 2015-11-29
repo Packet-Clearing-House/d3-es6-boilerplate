@@ -1,13 +1,38 @@
 {
-  "name": "visualization",
+  "name": "d3-es6-boilerplate",
   "version": "0.0.1",
-  "description": "Visualize Worldwide Internet Outages",
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp dist"
+  "description": "Boilerplate for D3 projects with Javascript ES6+ (Babel), Gulp, JSPM",
+  "main": "dist/index.html",
+  "homepage": "https://github.com/Packet-Clearing-House/d3-es6-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Packet-Clearing-House/d3-es6-boilerplate.git"
   },
-  "private": true,
-  "author": "Mohammed Elalj <mohammed@pch.net>",
+  "bugs": "https://github.com/Packet-Clearing-House/d3-es6-boilerplate/issues",
+  "author": {
+    "name": "Mohammed Elalj",
+    "email": "mohammed@pch.net",
+    "url": "https://www.pch.net"
+  },
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "build": "gulp build",
+    "docs": "npm run jsdocs",
+    "start": "gulp",
+    "buildjs": "jspm bundle-sfx js/app dist/app.min.js --minify --skip-source-maps",
+    "jsdocs": "esdoc -c .esdoc.json"
+  },
+  "keywords": [
+    "d3",
+    "vizualisation",
+    "es6",
+    "jspm",
+    "gulp",
+    "boilerplate",
+    "babel",
+    "systemjs"
+  ],
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-core": "^5.8.24",
