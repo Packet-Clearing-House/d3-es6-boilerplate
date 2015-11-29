@@ -1,5 +1,4 @@
-[![Dependency Status](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate.svg)](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate) [![devDependency Status](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate/dev-status.svg)](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate#info=devDependencies) [![license](https://img.shields.io/github/license/Packet-Clearing-House/d3-es6-boilerplate.svg)](https://github.com/Packet-Clearing-House/d3-es6-boilerplate/blob/master/LICENSE)
-
+[![Dependency Status](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate.svg)](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate) [![devDependency Status](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate/dev-status.svg)](https://david-dm.org/Packet-Clearing-House/d3-es6-boilerplate#info=devDependencies)
 
 # D3 ES6 Project Boilerplate
 
