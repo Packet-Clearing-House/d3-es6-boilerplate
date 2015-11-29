@@ -17,11 +17,8 @@
   "license": "GPL-3.0",
   "readmeFilename": "README.md",
   "scripts": {
-    "build": "gulp build",
-    "docs": "npm run jsdocs",
+    "build": "gulp dist",
     "start": "gulp",
-    "buildjs": "jspm bundle-sfx js/app dist/app.min.js --minify --skip-source-maps",
-    "jsdocs": "esdoc -c .esdoc.json"
   },
   "keywords": [
     "d3",
