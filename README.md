@@ -9,20 +9,25 @@ Boilerplate for D3 projects with Javascript ES6.
 - Automates building and actions using [Gulp](http://gulpjs.com/)
 - Manages Browser Javascript using [Bower](http://bower.io/)
 - Transpiles ES6+ automagically using [Babel](https://babeljs.io/) and uses sourcemap to better debug code.
-- Local dev server with [LiveReload](http://livereload.com/) using [Gulp Connect](https://github.com/avevlad/gulp-connect)
-- Linting with [ESLint](http://eslint.org/)
+- Local dev server with [BrowserSync](http://browsersync.io/)
 - Compress assets for production with Uglify
+- Lints your code using ESLint (Airbnb code style)
+- Get environment _development_ or _production_ with the JS variable `ENV`
+- Use Bower to get vendors Javascript libraries and combine them (here D3)
 
-## Usage
+## Requirements
 
-1. Clone this repo from `https://github.com/Packet-Clearing-House/d3-es6-boilerplate.git`
-2. Run `npm install` in the root directory
-3. Run `gulp` or `npm start` to start the local dev server on `http://localhost:5000` (you may need to install Gulp locally using `npm install -g gulp`)
-4. Enjoy 🍻
+- [NodeJs](http://www.nodejs.org), type `npm -v` on your terminal to check if you have it.
+- Gulp `npm install -g gulp`
+- Bower `npm install -g bower`
 
-## Building
+## Getting Started
 
-Run `gulp build` or `npm run build` to build the app for distribution in the `dist` folder.
+1. Run `npm install` to install dependencies
+2. Run `bower install` to download Browser Javacript libraries
+3. Run `gulp` to start the local dev environment on `http://localhost:5000`
+4. To have production ready files, run: `gulp dist`. All built files are located in the folder `/build/`
+5. Enjoy 🍻
 
 ## Contributing
 

@@ -1,8 +1,6 @@
 {
-  "name": "visualization",
+  "name": "d3-es6-boileterplate",
   "dependencies": {
-    "d3": "~3.5.8",
-    "topojson": "~1.6.19"
-  },
-  "private": true
+    "d3": "~3.5.8"
+  }
 }
