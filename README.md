@@ -23,10 +23,11 @@ Boilerplate for D3 projects with Javascript ES6.
 
 ## Getting Started
 
-1. Run `npm install` in the root directory to install dependencies
-2. Run `gulp` to start the local dev environment on `http://localhost:5000`
-3. To have production ready files, run: `gulp dist`. All built files are located in the folder `/build/`
-4. Enjoy 🍻
+1. Run `npm install` to install dependencies
+2. Run `bower install` to download Browser Javacript libraries
+3. Run `gulp` to start the local dev environment on `http://localhost:5000`
+4. To have production ready files, run: `gulp dist`. All built files are located in the folder `/build/`
+5. Enjoy 🍻
 
 ## Contributing
 
