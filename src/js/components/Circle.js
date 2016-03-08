@@ -12,10 +12,10 @@ export default class Circle {
   }
 
   addHover() {
-    this.element.on('mouseover', function() {
+    this.element.on('mouseover', function () {
       d3.select(this).style('fill', config.hoverColor);
     })
-    .on('mouseout', function() {
+    .on('mouseout', function () {
       d3.select(this).style('fill', config.mainColor);
     });
   }
