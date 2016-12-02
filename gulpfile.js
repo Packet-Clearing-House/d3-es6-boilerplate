@@ -24,7 +24,7 @@ gulp.task('browser-sync', function() {
       baseDir: "./build/"
     },
     files: ['./build/**/*.*'],
-    browser: 'google chrome',
+    browser: 'chrome',
     port: 5000,
   });
 });
@@ -33,7 +33,7 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', function() {
   gulp.watch('src/js/**/*.js', ['build:js:main']);
   gulp.watch('src/css/**/*.css', ['build:css']);
-  gulp.watch('src/*.html', ['build:html']);
+  gulp.watch('src/*.html', ['build:html:dev']);
   gulp.watch('src/datasets/*', ['move:datasets']);
   gulp.watch('src/fonts/*', ['move:fonts']);
 });
@@ -67,7 +67,10 @@ gulp.task('build:js:vendor', () => {
 // COMPRESSION
 gulp.task('compress:js', ['clean:map'], function() {
   return gulp.src('build/js/*.js')
-    .pipe(compressJs())
+    // TODO: fix this problem with uglifyJS, it seems to be caused by some config problem with babel
+    // .pipe(compressJs().on('error', function(e){
+    //   console.log(e);
+    // }))
     .pipe(gulp.dest('./build/js'));
 });
 
