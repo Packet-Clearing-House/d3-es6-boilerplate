@@ -67,7 +67,10 @@ gulp.task('build:js:vendor', () => {
 // COMPRESSION
 gulp.task('compress:js', ['clean:map'], function() {
   return gulp.src('build/js/*.js')
-    .pipe(compressJs())
+    // TODO: fix this problem with uglifyJS, it seems to be caused by some config problem with babel
+    // .pipe(compressJs().on('error', function(e){
+    //   console.log(e);
+    // }))
     .pipe(gulp.dest('./build/js'));
 });
 
